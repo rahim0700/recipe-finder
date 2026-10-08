@@ -70,4 +70,4 @@ async def filter_recipes_by_category(category: str):
         except Exception as e:
             # Catch any unexpected error and return an empty list instead of a 500 crash
             print(f"Error filtering category {category}: {str(e)}")
-            return []
+            return [],
